@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: #1A1A1A;
+    font-size: 60px;
+    margin: 16px 0px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: #1A1A1A;
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 8px 0px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: light;
+    font-size: 18px;
+    font: #1A1A1A;
+    margin: 0;
+    width: fixed;
+}
+
+navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: #f4f4f4;
+    font-size: 24px;
+    align-items: center;
+    margin: 0px;
+    padding: 16px 24px 16px 20px;
+}
+
+
+navbar ul {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.nav-item {
+    padding-right: 32px;
+}
+
+#logo {
+    height:50px;
+}
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.big-title {
+    padding: 0;
+    color: white;
+}
+
+.subtitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.section {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.feature-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:space-around;
+    width: 30%;
+    padding: 60px 32px;
+    border-width: 3px;
+    border-color: gray;
+    border-radius: 4px;
+}
+
+.icon {
+    width: 80px;
+}
+
+.kanye-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00B172;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.kanye-text{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding-top:24px;
+
+}
+
+.kanye-minisection {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding-top: 8px;
+}
+
+#screen {
+    width: 18%;
+}
